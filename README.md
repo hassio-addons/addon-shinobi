@@ -147,7 +147,7 @@ switching to MySQL later on, would result in data loss._
 
 **Note**: _When using the core MariaDB add-on, please be sure to create a
 separate database and user for Shinobi. DO NOT use the same database as
-Home Assistant`.
+Home Assistant._
 
 ### Option: `mysql_host`
 
@@ -180,7 +180,7 @@ The mail service to use. Can be either `smtp` or `gmail`.
 
 The username to use when connecting to the mail service.
 
-**Note**: _Please use your full mail address when using `gmail`.
+**Note**: _Please use your full mail address when using `gmail`._
 
 ### Option: `mail_password`
 
@@ -190,13 +190,13 @@ The password to use when connecting to the mail service.
 
 The `smtp` host or IP to connect to for sending emails.
 
-**Note**: _This option is ignored when using `gmail` as the mail service.
+**Note**: _This option is ignored when using `gmail` as the mail service._
 
 ### Option: `mail_port`
 
 The port the `smtp` host is listening on.
 
-**Note**: _This option is ignored when using `gmail` as the mail service.
+**Note**: _This option is ignored when using `gmail` as the mail service._
 
 ### Option: `mail_secure`
 
@@ -205,14 +205,14 @@ If `true` the connection will use TLS when connecting to the server. If `false`
 In most cases set this value to `true` if you are connecting to port 465.
 For port 587 or 25 keep it `false`.
 
-**Note**: _This option is ignored when using `gmail` as the mail service.
+**Note**: _This option is ignored when using `gmail` as the mail service._
 
 ### Option: `mail_cert_verify`
 
 Setting this to `false` would allow Shinobi to open a connection to
 TLS server with self-signed or invalid TLS certificate.
 
-**Note**: _This option is ignored when using `gmail` as the mail service.
+**Note**: _This option is ignored when using `gmail` as the mail service._
 
 ### Option: `ssl`
 
@@ -248,12 +248,12 @@ documentation they offer:
 ## Setting up the MariaDB core add-on
 
 Setting up Shinobi to use MySQL can be a little complex for some users. So, let
-us give you some samples.
+us give you some examples.
 
 First, install the core MariaDB add-on provided by Home Assistant (in case you
 didn't already have).
 
-Edit the add-on configuration of MariaDB. We need to do 3 things.
+Edit the add-on configuration of MariaDB. We need to do 3 things:
 
 1. Add a database for Shinobi
 1. Add a user for Shinobi
