@@ -1,0 +1,42 @@
+#main_header {
+    background: #03A9F4;
+    color: #fff;
+}
+.demo-drawer {
+    background: #03A9F4;
+    color: #fff;
+}
+#main_canvas {
+    background: #eeeeee;
+    color: #333;
+}
+.monitor_item .mdl-card__media {
+    background: #fbfbfb;
+}
+.monitor_item .stream-block {
+    background: #000;
+}
+.monitor_item .mdl-card {
+    border: 1px solid #b7b7b7;
+}
+.monitor_item .mdl-card__supporting-text {
+    background: #03A9F4;
+    color: #fff!important;
+}
+.progress-bar-warning {
+    background-color: #B3E5FC;
+}
+.monitor_item .side-menu {
+    background: #03A9F4;
+    color: #fff;
+}
+.monitor_item .mdl-card {
+    border: 1px solid #03A9F4;
+}
+.dark.modal .modal-header,.dark.modal .modal-footer{background:#03A9F4;border-color:#222;}
+.dark.modal .modal-body{background:#03A9F4;}
+.form-group-group.forestgreen {border-color: #03A9F4;}
+.form-group-group.forestgreen h4 {background: #03A9F4;}
+.dark .form-group-group {background: #03A9F4;}
+.dark .list-group-item {background: #03A9F4;border-color: #03A9F4;}
+.dark .form-control {background: #fff;}
