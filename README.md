@@ -446,7 +446,7 @@ SOFTWARE.
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-shinobi/41261?u=frenck
+[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-shinobi-pro/49767?u=frenck
 [frenck]: https://github.com/frenck
 [home-assistant]: https://home-assistant.io
 [i386-arch-shield]: https://img.shields.io/badge/architecture-i386-blue.svg
