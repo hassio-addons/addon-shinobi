@@ -21,12 +21,12 @@ if hass.config.true 'mysql'; then
     port=$(hass.config.get 'mysql_port')
 
     numberOfTables=$(
-        mysql -h "${host}" -u "${username}" -p"${password}" -P ${port} \
+        mysql -h "${host}" -u "${username}" -p"${password}" -P "${port}" \
             "${database}" -N -B -e "show tables;" | wc -l
     )
 
     if [[ "${numberOfTables}" -eq 0 ]]; then
-        mysql -h "${host}" -u "${username}" -p"${password}" -P ${port} \
+        mysql -h "${host}" -u "${username}" -p"${password}" -P "${port}" \
             "${database}" < "/opt/shinobi/sql/tables.sql" ||
                 hass.die "Error while importing database table structure!"
     fi

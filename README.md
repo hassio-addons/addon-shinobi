@@ -42,7 +42,7 @@ comparison to installing any other Hass.io add-on.
 1. Install the "Shinobi Pro" add-on.
 1. Start the "Shinobi Pro" add-on
 1. Check the logs of the "Shinobi Pro" add-on to see if everything went well.
-1. Surf to the superuser admin panel: http://hassio.local:5000/super
+1. Surf to the superuser admin panel: `http://hassio.local:5000/super`
 1. Log in with the superuser credentials as specified in the add-on configuration.
 1. Create a Shinobi user account.
 1. Logout from the superuser panel.
@@ -139,13 +139,13 @@ The password for superuser of the superuser control panel.
 
 By default, the add-on uses an internal SQLite database for its data.
 Set this option to `true` to enable MySQL as the database backend for this
-add-on. You'll need an external database server for this, like the 
+add-on. You'll need an external database server for this, like the
 MariaDB core add-on provided by Home Assistant.
 
 **Note**: _There is no migration system. When using SQLite at first, and
 switching to MySQL later on, would result in data loss._
 
-**Note**: _When using the core MariaDB add-on, please be sure to create a 
+**Note**: _When using the core MariaDB add-on, please be sure to create a
 separate database and user for Shinobi. DO NOT use the same database as
 Home Assistant`.
 
@@ -209,7 +209,7 @@ For port 587 or 25 keep it `false`.
 
 ### Option: `mail_cert_verify`
 
-Setting this to `false` would allow Shinobi to open a connection to 
+Setting this to `false` would allow Shinobi to open a connection to
 TLS server with self-signed or invalid TLS certificate.
 
 **Note**: _This option is ignored when using `gmail` as the mail service.
@@ -296,7 +296,7 @@ An example configuration would look like this:
 }
 ```
 
-After modifying your MariaDB add-on configuration, be sure to restart the 
+After modifying your MariaDB add-on configuration, be sure to restart the
 MariaDB add-on.
 
 For the Shinobi add-on configuration, the defaults are matching the MariaDB
