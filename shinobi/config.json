@@ -17,8 +17,8 @@
   "homeassistant_api": false,
   "host_network": false,
   "ports": {
-    "80/tcp": 5000,
-    "443/tcp": 5443
+    "80/tcp": 7440,
+    "443/tcp": 7443
   },
   "map": [
     "config:rw",
