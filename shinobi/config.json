@@ -4,7 +4,7 @@
   "slug": "shinobi",
   "description": "Beautiful and feature-rich CCTV/NVR for your cameras",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-shinobi-pro/49767?u=frenck",
-  "webui": "http://[HOST]:[PORT:5000]",
+  "webui": "http://[HOST]:[PORT:7440]",
   "startup": "application",
   "arch": [
     "aarch64",
