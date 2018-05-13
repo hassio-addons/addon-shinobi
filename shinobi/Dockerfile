@@ -29,6 +29,7 @@ RUN \
     \
     && git clone -b dev --single-branch --depth 1 \
         https://github.com/ShinobiCCTV/Shinobi.git /opt/shinobi/ \
+    && git -C /opt/shinobi checkout 2bc74064da5484545d86fce9cf95db74ace0db48 \
     \
     && cd /opt/shinobi \
     && yarn add mysql sqlite3 \
