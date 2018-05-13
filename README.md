@@ -40,7 +40,7 @@ comparison to installing any other Hass.io add-on.
 1. Install the "Shinobi Pro" add-on.
 1. Start the "Shinobi Pro" add-on
 1. Check the logs of the "Shinobi Pro" add-on to see if everything went well.
-1. Surf to the superuser admin panel: `http://hassio.local:5000/super`
+1. Surf to the superuser admin panel: `http://hassio.local:7440/super`
 1. Log in with the superuser credentials as specified in the add-on configuration.
 1. Create a Shinobi user account.
 1. Logout from the superuser panel.
@@ -335,7 +335,7 @@ panel_iframe:
   shinobi:
     title: Shinobi
     icon: mdi:cctv
-    url: http://addres.to.your.hass.io:5000
+    url: http://addres.to.your.hass.io:7440
 ```
 
 ## Changelog & Releases
