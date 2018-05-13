@@ -27,9 +27,11 @@ RUN \
         x264=20170930-r0 \
         x265=2.5-r0 \
     \
-    && git clone -b dev --single-branch --depth 1 \
+    && git clone -b dev --single-branch \
         https://github.com/ShinobiCCTV/Shinobi.git /opt/shinobi/ \
     && git -C /opt/shinobi checkout 4bf071abb5706f9240f32617bf3bb4b8aa52f3ca \
+    && git -C /opt/shinobi reflog expire --expire=now --all \
+    && git -C /opt/shinobi gc --prune=now --aggressive \
     \
     && cd /opt/shinobi \
     && yarn add mysql sqlite3 \
