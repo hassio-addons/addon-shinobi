@@ -20,7 +20,7 @@ RUN \
         nodejs=8.9.3-r1 \
         ffmpeg=3.4-r1 \
         python2=2.7.14-r2 \
-        sqlite=3.21.0-r0 \
+        sqlite=3.21.0-r1 \
         socat=1.7.3.2-r3 \
         ttf-freefont=20120503-r0 \
         mysql-client=10.1.32-r0 \
