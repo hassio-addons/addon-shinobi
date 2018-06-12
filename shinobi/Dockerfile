@@ -29,7 +29,7 @@ RUN \
     \
     && git clone -b dev --single-branch \
         https://github.com/ShinobiCCTV/Shinobi.git /opt/shinobi/ \
-    && git -C /opt/shinobi checkout 4bf071abb5706f9240f32617bf3bb4b8aa52f3ca \
+    && git -C /opt/shinobi checkout 4d00c910f756167e8b04bd4a3795c2ffda3e823c \
     && git -C /opt/shinobi reflog expire --expire=now --all \
     && git -C /opt/shinobi gc --prune=now --aggressive \
     \
