@@ -218,7 +218,7 @@ TLS server with self-signed or invalid TLS certificate.
 
 ### Option: `ssl`
 
-Enables/Disables SSL (HTTPS) on the web interface of Pi-hole. Set it `true` to
+Enables/Disables SSL (HTTPS) on the web interface of Shinobi. Set it `true` to
 enable it, `false` otherwise.
 
 **Note**: Enabling SSL would be additional to the already active plain HTTP
