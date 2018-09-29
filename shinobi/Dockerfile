@@ -16,7 +16,7 @@ RUN \
         openssl-dev=1.0.2p-r0 \
         python2-dev=2.7.15-r1 \
         jpeg-dev=8-r6 \
-        pkgconf=1.3.10-r0 \
+        pkgconf=1.5.3-r0 \
         yarn=1.3.2-r0 \
     \
     && apk add --no-cache \
