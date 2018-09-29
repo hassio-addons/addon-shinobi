@@ -38,8 +38,7 @@ RUN \
     && git -C /opt/shinobi gc --prune=now --aggressive \
     \
     && cd /opt/shinobi \
-    && npm install -g --unsafe-perm sqlite \
-    && yarn add mysql \
+    && yarn add mysql sqlite3 \
     && yarn install \
     && apk del --purge .build-dependencies
 
