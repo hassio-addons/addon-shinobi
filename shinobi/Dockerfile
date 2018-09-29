@@ -25,7 +25,7 @@ RUN \
         python2=2.7.15-r1 \
         sqlite=3.24.0-r0 \
         socat=1.7.3.2-r4 \
-        ttf-freefont=20120503-r0 \
+        ttf-freefont=20120503-r1 \
         mysql-client=10.1.32-r0 \
         x264=20170930-r0 \
         x265=2.5-r0 \
