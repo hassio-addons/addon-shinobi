@@ -14,7 +14,7 @@ RUN \
         make=4.2.1-r2 \
         build-base=0.5-r1 \
         openssl-dev=1.0.2p-r0 \
-        python2-dev=2.7.14-r2 \
+        python2-dev=2.7.15-r1 \
         jpeg-dev=8-r6 \
         pkgconf=1.3.10-r0 \
         yarn=1.3.2-r0 \
@@ -22,7 +22,7 @@ RUN \
     && apk add --no-cache \
         nodejs=8.9.3-r1 \
         ffmpeg=3.4-r1 \
-        python2=2.7.14-r2 \
+        python2=2.7.15-r1 \
         sqlite=3.21.0-r1 \
         socat=1.7.3.2-r3 \
         ttf-freefont=20120503-r0 \
