@@ -10,7 +10,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         git=2.18.0-r0 \
-        g++=6.4.0-r5 \
+        g++=6.4.0-r9 \
         make=4.2.1-r0 \
         build-base=0.5-r0 \
         openssl-dev=1.0.2o-r0 \
