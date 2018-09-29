@@ -28,7 +28,7 @@ RUN \
         ttf-freefont=20120503-r1 \
         mysql-client=10.2.15-r0 \
         x264=20180304-r1 \
-        x265=2.5-r0 \
+        x265=2.7-r1 \
     \
     && git clone -b master --single-branch \
         https://github.com/ShinobiCCTV/Shinobi.git /opt/shinobi/ \
