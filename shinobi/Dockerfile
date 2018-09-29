@@ -24,7 +24,7 @@ RUN \
         ffmpeg=3.4.4-r1 \
         python2=2.7.15-r1 \
         sqlite=3.24.0-r0 \
-        socat=1.7.3.2-r3 \
+        socat=1.7.3.2-r4 \
         ttf-freefont=20120503-r0 \
         mysql-client=10.1.32-r0 \
         x264=20170930-r0 \
