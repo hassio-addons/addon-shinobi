@@ -32,7 +32,7 @@ RUN \
     \
     && git clone -b master --single-branch \
         https://gitlab.com/Shinobi-Systems/Shinobi.git /opt/shinobi/ \
-    && git -C /opt/shinobi checkout 4d00c910f756167e8b04bd4a3795c2ffda3e823c \
+    && git -C /opt/shinobi checkout 7134e06a9ca032f363193063cf8ede8cd6d067cc \
     && git -C /opt/shinobi reflog expire --expire=now --all \
     && git -C /opt/shinobi gc --prune=now --aggressive \
     \
