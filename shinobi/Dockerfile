@@ -26,7 +26,7 @@ RUN \
         sqlite=3.24.0-r0 \
         socat=1.7.3.2-r4 \
         ttf-freefont=20120503-r1 \
-        mysql-client=10.1.32-r0 \
+        mysql-client=10.2.15-r0 \
         x264=20170930-r0 \
         x265=2.5-r0 \
     \
