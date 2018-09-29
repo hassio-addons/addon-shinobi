@@ -9,24 +9,25 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # hadolint ignore=DL3003
 RUN \
     apk add --no-cache --virtual .build-dependencies \
-        git=2.18.0-r0 \
-        g++=6.4.0-r9 \
-        make=4.2.1-r2 \
         build-base=0.5-r1 \
-        openssl-dev=1.0.2p-r0 \
-        python2-dev=2.7.15-r1 \
+        g++=6.4.0-r9 \
+        git=2.18.0-r0 \
         jpeg-dev=8-r6 \
+        make=4.2.1-r2 \
+        npm=8.11.4-r0 \
+        openssl-dev=1.0.2p-r0 \
         pkgconf=1.5.3-r0 \
+        python2-dev=2.7.15-r1 \
         yarn=1.7.0-r0 \
     \
     && apk add --no-cache \
-        nodejs=8.11.4-r0 \
         ffmpeg=3.4.4-r1 \
-        python2=2.7.15-r1 \
-        sqlite=3.24.0-r0 \
-        socat=1.7.3.2-r4 \
-        ttf-freefont=20120503-r1 \
         mysql-client=10.2.15-r0 \
+        nodejs=8.11.4-r0 \
+        python2=2.7.15-r1 \
+        socat=1.7.3.2-r4 \
+        sqlite=3.24.0-r0 \
+        ttf-freefont=20120503-r1 \
         x264=20180304-r1 \
         x265=2.7-r1 \
     \
@@ -37,7 +38,8 @@ RUN \
     && git -C /opt/shinobi gc --prune=now --aggressive \
     \
     && cd /opt/shinobi \
-    && yarn add mysql sqlite3 \
+    && npm install -g --unsafe-perm sqlite \
+    && yarn add mysql \
     && yarn install \
     && apk del --purge .build-dependencies
 
