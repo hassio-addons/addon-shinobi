@@ -13,7 +13,7 @@ RUN \
         g++=6.4.0-r9 \
         make=4.2.1-r2 \
         build-base=0.5-r1 \
-        openssl-dev=1.0.2o-r0 \
+        openssl-dev=1.0.2p-r0 \
         python2-dev=2.7.14-r2 \
         jpeg-dev=8-r6 \
         pkgconf=1.3.10-r0 \
