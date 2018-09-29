@@ -20,7 +20,7 @@ RUN \
         yarn=1.7.0-r0 \
     \
     && apk add --no-cache \
-        nodejs=8.9.3-r1 \
+        nodejs=8.11.4-r0 \
         ffmpeg=3.4-r1 \
         python2=2.7.15-r1 \
         sqlite=3.21.0-r1 \
